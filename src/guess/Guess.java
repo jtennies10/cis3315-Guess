@@ -19,10 +19,13 @@ public class Guess {
         int answer = rand.nextInt(10) + 1;
         System.out.print("Guess a number between 1 and 10: ");
         while (true) {
-            if (sc.nextInt() == answer) {
+            int guess = sc.nextInt();
+            if (guess == answer) {
                 break;
+            } else if (guess > answer) {
+                System.out.print("\nYour guess is too high. Guess again: ");
             } else {
-                System.out.print("\nIncorrect. Guess again: ");
+                System.out.print("\nYour guess is too low. Guess again: ");
             }
         }
         System.out.println("Good job! You guessed the answer!");
