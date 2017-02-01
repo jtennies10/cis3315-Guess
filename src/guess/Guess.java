@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Guess {
 
     /**
-     * Have user guess a number between 1 and 10. Loop until their guess is right
+     * Loop through until user guesses correct number between 1 and 10.
      * @param args the command line arguments
      */
     public static void main(String[] args) {
