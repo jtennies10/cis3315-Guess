@@ -12,6 +12,7 @@ public class Guess {
     /**
      * Loop through until user guesses correct number between 1 and 10.
      * @param args the command line arguments
+     * This line was added from GitHub
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
